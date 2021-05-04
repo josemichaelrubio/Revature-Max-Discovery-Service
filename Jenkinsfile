@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         PORT="8500"
-        IMAGE_TAG="revmax-discovery"
-        CONTAINER_NAME="revmax-discovery"
+        IMAGE_TAG="consul"
+        CONTAINER_NAME="discovery"
     }
 
    stages {
